@@ -55,7 +55,7 @@ function getDate() {
     let fullTime = `${day}/${month}/${year} ${hours}:${minutes}:${seconds}`;
     part1Date.innerHTML=`${day}/${month}/${year} `;
     part2Date.innerHTML=`${hours}:${minutes}:${seconds}`;
-  //  dateContent.innerHTML=`current Date : ${fullTime}`
+    console.log(fullTime);
     return fullTime;
 }
 getDate();
