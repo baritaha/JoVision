@@ -1,0 +1,22 @@
+.content{
+    background-color: rgb(211, 151, 109);
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+}
+.content button{
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(136, 60, 5);
+    color: aqua;
+    transition: 0.3s ease-in-out;
+}
+.content button:hover{
+    background-color: rgb(238, 116, 29);
+    transition: 0.3s ease-in-out;
+    color: white;
+}
